@@ -7,7 +7,7 @@ class Calculation2:
 class Derived(Calculation1,Calculation2):
     def Divide(self,a,b):
         return a/b
-d=Derived()
+d=Derived() 
 print(issubclass(Derived,Calculation1))
 print(issubclass(Derived,Calculation2))
 print(issubclass(Calculation1,Calculation2))

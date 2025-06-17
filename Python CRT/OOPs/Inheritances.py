@@ -1,4 +1,5 @@
-#single level Method1
+#single level Inheritence 
+# Method1
 class Father:
     def __init__(self,name):
         self.name=name
@@ -64,7 +65,7 @@ s1.fathername="Shiva"
 s1.mothername="Pavani"
 s1.son1information()
 
-#Heirarchial
+#Heirarchial Inheritence
 class son1(father,mother):
     son1name=''
     def son1information(self):
@@ -85,3 +86,4 @@ s2=son2()
 s2.fathername="Shiva"
 s2.son2name="Praveen"
 s2.son2information()
+s1.Father()
